@@ -112,7 +112,7 @@ class FirebaseHelper
       "Android",
       importance: Importance.high,
       priority: Priority.max,
-      sound: RawResourceAndroidNotificationSound('notification'),
+      sound: RawResourceAndroidNotificationSound('sound'),
     );
 
     DarwinNotificationDetails iOSNotificationDetails = const DarwinNotificationDetails(subtitle: "IOS",);

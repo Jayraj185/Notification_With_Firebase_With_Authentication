@@ -101,7 +101,7 @@ class HomeController extends GetxController
       "Android",
       importance: Importance.high,
       priority: Priority.max,
-      sound: const RawResourceAndroidNotificationSound('notification'),
+      sound: RawResourceAndroidNotificationSound('sound'),
       styleInformation: bigPictureStyleInformation
     );
 
